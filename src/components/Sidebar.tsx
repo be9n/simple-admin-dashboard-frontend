@@ -79,7 +79,7 @@ export default function Sidebar() {
       className="sticky top-0 left-0 h-screen w-[170px] bg-primary-500 dark:bg-secondary-600 transition-colors duration-200
     px-3 py-5"
     >
-      <img className="size-12 mx-auto" src="/src/assets/logo2.svg" alt="" />
+      <img className="size-12 mx-auto" src="/assets/logo2.svg" alt="" />
       <ul className="mt-4 space-y-2">
         {navigationItems.map((nav) => (
           <li key={nav.to || nav.title}>
